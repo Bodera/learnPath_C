@@ -9,14 +9,14 @@ void calcula_tempo(int &horas, int &minutos, int &segundos, int X){
 
 main(){
 	int X;
-	int horas,minutos,segundos = 0;
+	int horas,minutos,segundos;
 	
 	printf("");
 	scanf("%d",&X);
 	
-	calcula_tempo(horas,minutos,segundos, X);
+	calcula_tempo(horas,minutos,segundos, X); //chamada da função com identificação dos parâmetros 
 	
-	printf("%d:%d:%d",horas,minutos,segundos);
+	printf("%d:%d:%d\n",horas,minutos,segundos);
 
- getchar();//Uma função que não depende de bibliotecas para congelar a tela
+ 	getchar(); //Uma função que não depende de bibliotecas para congelar a tela
  }
