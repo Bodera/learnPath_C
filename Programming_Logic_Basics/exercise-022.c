@@ -10,6 +10,8 @@
 
 int main()
 {
+	setlocale(LC_ALL, "Portuguese");
+	
 	double temperatura;
 	
 	printf("Informar valor da temperatura em graus centígrados: ");

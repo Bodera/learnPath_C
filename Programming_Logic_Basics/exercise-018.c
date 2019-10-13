@@ -13,7 +13,7 @@ int main()
 	printf("Informar duas notas para cálculo da situação escolar: ");
 	scanf("%lf %lf", &n1, &n2);
 	
-	media = (n1+n2) / 2;
+	media = (n1+n2) / 2.0;
 	
 	if (media > 7)
 	{

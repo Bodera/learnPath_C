@@ -6,6 +6,8 @@
 
 int main()
 {
+	setlocale(LC_ALL, "Portuguese");
+	
 	int n1, n2;	
 	
 	printf("Informar dois valores inteiros: ");

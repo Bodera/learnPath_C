@@ -7,6 +7,8 @@
 
 int main()
 {
+	setlocale(LC_ALL, "Portuguese");
+	
 	double preco, venda;
 	
 	printf("Informar o preço de compra do produto: R$ ");

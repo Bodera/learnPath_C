@@ -12,7 +12,7 @@ int main()
 	printf("Informar 3 (três) notas para obter a média aritmética.\n");
 	scanf(" %lf %lf %lf", &n1, &n2, &n3);
 	
-	media = (n1+n2+n3) / 3;
+	media = (n1+n2+n3) / 3.0;
 	
 	printf("%.2lf é o valor final da média entre as notas.", media);
 	

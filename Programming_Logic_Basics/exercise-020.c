@@ -9,6 +9,8 @@
 
 int main()
 {
+	setlocale(LC_ALL, "Portuguese");
+	
 	double n1, n2, n3, media;
 	int tt_faltas, tolerancia;
 	
@@ -18,7 +20,7 @@ int main()
 	scanf("%d", &tt_faltas);
 	
 	tolerancia = 80 * 0.25;
-	media = (n1+n2+n3) / 3;
+	media = (n1+n2+n3) / 3.0;
 	
 	if(tt_faltas > tolerancia)
 	{

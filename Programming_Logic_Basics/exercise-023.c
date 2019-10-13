@@ -10,6 +10,8 @@
 
 int main()
 {
+	setlocale(LC_ALL, "Portuguese");
+	
 	int idade;
 	
 	printf("Informar a idade em anos: ");
