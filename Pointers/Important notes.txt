@@ -1,7 +1,0 @@
-aula de c
-
-Ponteiro -> uma variável que faz referência a todos os pontos de um endereço na memória de seu computador.
-Memória -> uma série de locais onde bits de dados são armazenados
-Arrays -> uma sequência de itens de dados armazenados no mesmo local na memória, seu endereço é idêntico ao
-			ao do primeiro item que comporta pois nele que o array começa. O nome da variável também é seu endereço.
-String -> um array de caracteres

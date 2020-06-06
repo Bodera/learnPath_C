@@ -15,3 +15,5 @@ In this course we will also cover the use of pointers with special types such as
 At some point you may think that some topics are quite hard to grasp, however, don't give up and reproduces the code provided and play with it until you have sure that understand the lesson before moving on.
 
 Many books and tutorials on C programming tend to be quite vague on what a pointer variable really is. They show pointers as arrows pointing to memory locations but without explaining what those arrows are, or how a pointer knows where to point. And is vital for you to realize that these arrows were just diagrams, they don't really show what a pointer is or how it works. Diagrams with arrows are sometimes useful but, they don't truly represent what pointers really are. Pointers are just a bit of data, a value number, you must need to understand that at the outset, only once you've understood what a pointer is these kind of diagrams will start to make some sort of sense.
+
+Check out [this list](./) to get access to the definition of some concepts that we will use repeatedly throughout this course.
