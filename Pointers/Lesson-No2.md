@@ -23,7 +23,7 @@ int main(int argc, char **argv)
 
 Here I've declared a simple __int__ variable called *num* and also I've declared a pointer variable calles *numPtr*.
 
-The asterisk or star operator (*) shows that this is a pointer. The data type shows the type of data to which this pointer will point. So this pointer will point to a memory location containing an integer.
+The asterisk or star operator (\*) shows that this is a pointer. The data type shows the type of data to which this pointer will point. So this pointer will point to a memory location containing an integer.
 
 Incidentally it's up to you to put the asterisk when declaring the pointer. Some programmers put it immediately after the data type, others put it before the variable name, so you could do this:
 
