@@ -1,6 +1,6 @@
 # C programming - Pointers
 
-Course taught by Huw Collingbourne, it's expected that the student is already familiar with the basic C language syntax. We will learn:
+Course taught by __Huw Collingbourne__, it's expected that the student is already familiar with the basic C language syntax. We will learn:
 
 - What pointers are and how we can use them
 - Understand the concept of memory addresses and indirection (dereference)
