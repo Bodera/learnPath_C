@@ -21,9 +21,12 @@ Now let's see if we can find where this string is stored in memory.
 ```c
 # include <stdio.h>
 
-int main(int argc, char **argv){
+int main(int argc, char **argv)
+{
     char str_one[] = "Hello World";
+
     printf("%s %c %d %d %d\n", str_one, str_one[0], &str_one, &str_one[0], str_one);
+
     return 0;
 }
 ```
