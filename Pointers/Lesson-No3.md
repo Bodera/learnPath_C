@@ -44,3 +44,5 @@ Now if we verify that *num2* has indeed been assigned, the value of *num* was `1
 So in summary, the pointer *numPtr* gave me the address of the *num* variable, and the star operator (\*) returned the data stored at that address.
 
 Accessing stored at an address in this way is sometimes known as dereferencing or indirection. The pointer gives me a reference to an address and the asterisk, which is sometimes called the *dereferencing operator* or the *indirection operator*, gives me access to the data that's stored at that address.
+
+Now you may like to read [an pdf that covers some basic topics about pointers](/assets/pdfs/Pointer-Basics.pdf).
