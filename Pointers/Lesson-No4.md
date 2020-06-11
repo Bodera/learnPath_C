@@ -87,4 +87,4 @@ And when you deal with arrays (including strings) you're dealing with addresses.
 
 Here is an external reference about [how to interpreted memory addresses integers](https://stackoverflow.com/questions/1689423/memory-address-positive-or-negative-value-in-c).
 
-Also there is [an pdf that covers that topic](/assets/pdfs/Printing-pointer-values.pdf)
+Also there is [an pdf that covers that topic](/assets/pdfs/Printing-pointer-values.pdf).
