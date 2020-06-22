@@ -3,12 +3,12 @@
 int main(int argc, char **argv)
 {
     int num;
-    int* numPtr;
+    int* numPtr; //pointers are declared using the * signal
     int num2;
 
-    num = 100;
-    numPtr = &num;
-    num2 = *numPtr;
+    num = 100; //variable num holds the int value 100
+    numPtr = &num; //the pointer now stores the memory address of the variable num
+    num2 = *numPtr; //dereferencing or indirection
 
 	printf("num=%d, numPtr=%d, address of num=%d, num2=%d\n", num, numPtr, &num, num2);
 
