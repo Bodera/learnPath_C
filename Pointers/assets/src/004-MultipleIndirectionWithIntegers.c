@@ -8,7 +8,7 @@ int main(int argc, char **argv) {
     int *pi; //a simple pointer to an integer
     int **ppi; //a pointer to a pointer which points to an integer
 
-    printf ("Multiple indirection example\n");
+    printf("Multiple indirection example\n\n");
 
     //filling in our integer array
     for (int i = 0; i < LENGTH; i++) {

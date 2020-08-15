@@ -220,6 +220,6 @@ printf("The value of pi is %p and it points to %d\n\n", pi, *pi);
 
 And all this happens because `ppi` points to `pi`. Thus one level of indirection goes to `pi` and the second level of indirection goes to the integer to which `pi` points.
 
-Okay, congratulations for getting so far. Yes may be hard to get to grips with all that stuff, especially if this is your first time using pointers or multiple indirection. In this case, the best you do is to try out the code provided at the [src] folder referring to this class, or write your own. Then use a debugger to step through it one line at the time. It's really worth the effort though.
+Okay, congratulations for getting so far. Yes may be hard to get to grips with all that stuff, especially if this is your first time using pointers or multiple indirection. In this case, the best you do is to try out the code provided at the [src] folder referring to this lesson, or write your own. Then use a debugger to step through it one line at the time. It's really worth the effort though.
 
 Once you can understand this, you'll have crossed one of the major barriers to understanding how pointers __really__ work.

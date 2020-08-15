@@ -10,6 +10,8 @@ int main(int argc, char **argv)
     numPtr = &num; //the pointer now stores the memory address of the variable num
     num2 = *numPtr; //dereferencing or indirection
 
+    printf("Pointer basics program\n\n");
+
 	printf("num=%d, numPtr=%d, address of num=%d, num2=%d\n", num, numPtr, &num, num2);
 
 	return 0;
