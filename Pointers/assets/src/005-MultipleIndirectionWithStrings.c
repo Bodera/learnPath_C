@@ -2,15 +2,15 @@
 
 #define LENGTH 3 //the number of elements in our array
 
-char *words[LENGTH]; //an array for some strings
+char* words[LENGTH];
 
 int main(int argc, char **argv) {
-    char *pc; //pointer to a char
-    char **ppc; //pointer to a pointer to a char
+    char *pc;
+    char **ppc;
 
     printf("Multiple indirection example\n\n");
 
-    //let's initialize our string array
+    //initialize our string array
     words[0] = "zero";
     words[1] = "one";
     words[2] = "two";
@@ -26,11 +26,11 @@ int main(int argc, char **argv) {
     */
 
     for (int i=0; i < LENGTH; i++) { //start looping over each string
-        ppc = words + i; //ppc now stores
+        ppc = words + i;
         pc = *ppc;
 
-        while(*pc != 0) {
-            printf("%c-", *pc);
+        while(*pc != 0) { 
+            printf("%c ", *pc);
             pc += 1;
         }
 
