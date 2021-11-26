@@ -1,1 +1,3 @@
 .vscode/
+assets/src/*
+!assets/src/*.c
